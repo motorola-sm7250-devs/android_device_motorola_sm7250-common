@@ -52,6 +52,7 @@ on early-init
 on fs
     insmod /vendor/lib/modules/cci_intf.ko
     mkdir /mnt/vendor/persist/fps 0770 system system
+    exec_start vendor.ident-fps-sh
 
 on fs && property:ro.vendor.hw.modem_version=*
     # Super modem detection
