@@ -162,7 +162,7 @@ TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/init/fstab.qcom
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 include device/lineage/sepolicy/libperfmgr/sepolicy.mk
-include hardware/motorola/sepolicy/SEPolicy.mk
+include hardware/motorola/sepolicy/qti/SEPolicy.mk
 include hardware/sony/timekeep/sepolicy/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 
