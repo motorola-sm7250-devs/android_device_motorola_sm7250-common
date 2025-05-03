@@ -65,7 +65,6 @@ BOARD_KERNEL_CMDLINE := \
 #    console=ttyMSM0,115200n8 \
 #    earlycon=msm_geni_serial,0x4a90000 \
 
-#    androidboot.usbcontroller=a600000.dwc3 \
 #    reboot=panic_warm
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_PAGESIZE := 4096
