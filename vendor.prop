@@ -247,9 +247,6 @@ debug.sf.early.sf.duration=15666666
 debug.sf.earlyGl.sf.duration=15666666
 debug.sf.late.sf.duration=15666666
 
-# Time
-persist.vendor.delta_time.enable=true
-
 # USB
 vendor.usb.controller=a600000.dwc3
 vendor.usb.diag.func.name=diag
