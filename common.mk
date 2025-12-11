@@ -113,7 +113,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
-$(call soong_config_set,fastbootd,zero_packet,true)
+$(call soong_config_set_bool,fastbootd,zero_packet,true)
 
 # Framework detect
 PRODUCT_PACKAGES += \
